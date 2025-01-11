@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vulnerable Web Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to the Vulnerable Web Application</h1>
+
+  <!-- SQL Injection Example -->
+  <form action="search.php" method="GET">
+    <label for="search">Search:</label>
+    <input type="text" id="search" name="query">
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- XSS Example -->
+  <form id="commentForm">
+    <label for="comment">Leave a comment:</label>
+    <textarea id="comment" name="comment"></textarea>
+    <button type="submit">Post Comment</button>
+  </form>
+
+  <!-- Insecure Authentication Example -->
+  <form id="loginForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <button type="submit">Login</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
