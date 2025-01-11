@@ -14,5 +14,8 @@ USED LANG:HTML,CSS,JAVASCREPT and SQL
 
 OUTPUT OF THE TASK:
 
+![Screenshot 2025-01-11 131640](https://github.com/user-attachments/assets/4d4af85d-aad5-4345-9450-d68fe11d7dbd)
+
+
 
 
